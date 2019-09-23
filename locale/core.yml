@@ -12,12 +12,12 @@ core:
       developer_text: "If you're a developer, you can <a>read the docs</a> and have a go at building your own extensions."
       install_text: "In the meantime, you can look for extensions at the <a>Flarum Community site</a> and install them manually using Composer."
       temporary_text: "One day in the not-too-distant future, this dialog will allow you to add an extension to your forum with ease. We're building an ecosystem as we speak!"
-      title: Add Extension
+      title: เพิ่มส่วนขยาย
 
     # These translations are used in the Appearance page.
     appearance:
-      colored_header_label: Colored Header
-      colors_heading: Colors
+      colored_header_label: สีส่วนหัว
+      colors_heading: สี
       colors_text: "Choose two colors to theme your forum with. The first will be used as a highlight color, while the second will be used to style background elements."
       custom_footer_heading: Custom Footer
       custom_footer_text: => core.ref.custom_footer_text
@@ -32,17 +32,17 @@ core:
       enter_hex_message: Please enter a hexadecimal color code.
       favicon_heading: Favicon
       favicon_text: Upload an image to be displayed as the forum's shortcut icon.
-      logo_heading: Logo
+      logo_heading: โลโก้
       logo_text: Upload an image to be displayed in place of the forum title.
       submit_button: => core.ref.save_changes
 
     # These translations are used in the Basics page.
     basics:
       all_discussions_label: => core.ref.all_discussions
-      default_language_heading: Default Language
-      forum_description_heading: Forum Description
+      default_language_heading: ภาษาเริ่มต้น
+      forum_description_heading: คำอธิบาย
       forum_description_text: Enter a short sentence or two that describes your community. This will appear in the meta tag and show up in search engines.
-      forum_title_heading: Forum Title
+      forum_title_heading: ชื่อห้วข้อ
       home_page_heading: Home Page
       home_page_text: Choose the page which users will first see when they visit your forum.
       saved_message: Your changes were saved.
@@ -54,7 +54,7 @@ core:
     # These translations are used in the Dashboard page.
     dashboard:
       clear_cache_button: Clear Cache
-      tools_button: Tools
+      tools_button: เครื่องมือ
 
     # These translations are used in the Edit Custom CSS modal dialog.
     edit_css:
@@ -89,7 +89,7 @@ core:
 
     # These translations are used in the email page of the admin interface.
     email:
-      addresses_heading: Addresses
+      addresses_heading: ที่อยู่
       driver_heading: Choose a Driver
       driver_label: Driver
       from_label: Sender
@@ -114,9 +114,9 @@ core:
 
     # These translations are used in the Extensions page.
     extensions:
-      add_button: Add Extension
+      add_button: ส่วนขยายโฆษณา
       settings_button: => core.ref.settings
-      uninstall_button: Uninstall
+      uninstall_button: ถอนการติดตั้ง
 
     # These translations are used in the session dropdown menu.
     header:
@@ -124,7 +124,7 @@ core:
 
     # These translations are used in the modal dialog displayed when loading extensions.
     loading:
-      title: Please Wait...
+      title: โปรดรอ...
 
     # These translations are used in the navigation bar.
     nav:
@@ -145,7 +145,7 @@ core:
     permissions:
       allow_post_editing_label: Allow post editing
       allow_renaming_label: Allow renaming
-      create_heading: Create
+      create_heading: สร้าง
       delete_discussions_forever_label: Delete discussions forever
       delete_discussions_label: Delete discussions
       delete_posts_forever_label: Delete posts forever
@@ -206,11 +206,11 @@ core:
 
     # These translations are used by the composer controls.
     composer:
-      close_tooltip: Close
-      exit_full_screen_tooltip: Exit Full Screen
-      full_screen_tooltip: Full Screen
-      minimize_tooltip: Minimize
-      preview_tooltip: Preview
+      close_tooltip: ปิด
+      exit_full_screen_tooltip: ออกจากเต็มหน้าจอ
+      full_screen_tooltip: เต็มจอ
+      minimize_tooltip: ลดขนาด
+      preview_tooltip: ตัวอย่าง
 
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
@@ -232,7 +232,7 @@ core:
       discard_confirmation: "You have not posted your reply. Do you wish to discard it?"
       posted_message: Your reply was posted.
       submit_button: Post Reply
-      view_button: View
+      view_button: ดู
 
     # These translations are used by the discussion control buttons.
     discussion_controls:
@@ -300,11 +300,11 @@ core:
 
     # These translations are used by the sorting control above the discussion list.
     index_sort:
-      latest_button: Latest
-      newest_button: Newest
-      oldest_button: Oldest
-      relevance_button: Relevance
-      top_button: Top
+      latest_button: ล่าสุด
+      newest_button: ใหม่ล่าสุด
+      oldest_button: เก่าที่สุด
+      relevance_button: ความสัมพันธ์กัน
+      top_button: ด้านบน
 
     # These translations are used in the Log In modal dialog.
     log_in:
@@ -357,7 +357,7 @@ core:
     # These translations are used by the rename discussion modal.
     rename_discussion:
       submit_button: => core.ref.rename
-      title: Rename Discussion
+      title: เปลี่ยนชื่อหัวข้อ
 
     # These translations are used by the search results dropdown list.
     search:
@@ -392,7 +392,7 @@ core:
     # These translations are used in the user profile page and profile popup.
     user:
       avatar_remove_button: => core.ref.remove
-      avatar_upload_button: Upload
+      avatar_upload_button: อัพโหลด
       avatar_upload_tooltip: Upload a new avatar
       discussions_link: => core.ref.discussions
       in_discussion_text: "In {discussion}"
@@ -486,8 +486,8 @@ core:
 
     # Translations in this namespace are displayed by the Reset Password interface.
     reset_password:
-      confirm_password_label: Confirm New Password
-      new_password_label: New Password
+      confirm_password_label: ยืนยันรหัสผ่านใหม่
+      new_password_label: รหัสผ่านใหม่
       submit_button: => core.ref.save_changes
       title: => core.ref.reset_your_password
 
@@ -544,10 +544,10 @@ core:
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
     all_discussions: All Discussions
-    change_email: Change Email
-    change_password: Change Password
-    color: Color                                 # Referenced by flarum-tags.yml
-    confirm_password: Confirm Password
+    change_email: เปลี่ยนอีเมล์
+    change_password: เปลี่ยนรหัสผ่าน
+    color: สี                                 # Referenced by flarum-tags.yml
+    confirm_password: ยืนยันรหัสผ่าน
     confirmation_email_sent: "We've sent a confirmation email to {email}. If it doesn't arrive soon, check your spam folder."
     custom_footer_text: Add HTML to be displayed at the very bottom of the page.
     custom_footer_title: Edit Custom Footer
@@ -556,22 +556,22 @@ core:
     delete: Delete
     delete_forever: Delete Forever
     discussions: Discussions                     # Referenced by flarum-statistics.yml
-    edit: Edit
-    email: Email
-    icon: Icon
+    edit: แก้ไข
+    email: อีเมล์
+    icon: ไอคอน
     icon_text: "Enter the name of any <a>FontAwesome</a> icon class, <em>including</em> the <code>fas fa-</code> prefix."
     load_more: Load More
-    log_in: Log In
-    log_out: Log Out
+    log_in: ล็อกอิน
+    log_out: ออกจากระบบ
     mark_all_as_read: Mark All as Read
     next_page: Next Page
     notifications: Notifications
-    okay: OK                                     # Referenced by flarum-tags.yml
-    password: Password
+    okay: ตกลง                                     # Referenced by flarum-tags.yml
+    password: รหัสผ่าน
     posts: Posts                                 # Referenced by flarum-statistics.yml
     previous_page: Previous Page
-    remove: Remove
-    rename: Rename
+    remove: ลบ
+    rename: เปลี่ยนชื่อ
     reply: Reply                                 # Referenced by flarum-mentions.yml
     reset_your_password: Reset Your Password
     restore: Restore
@@ -583,7 +583,7 @@ core:
     username: Username
     users: Users                                 # Referenced by flarum-statistics.yml
     write_a_reply: Write a Reply...
-    you: You                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
+    you: คุณ                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
 
   ##
   # GROUP NAMES - These keys are translated at the back end.
